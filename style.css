@@ -13,6 +13,7 @@ li {
 
 :root {
     --cor-ciano-forte: hsl(171, 66%, 44%);
+    --cor-box: hsl(171deg 28% 42%);
     --cor-azul-claro: hsl(233, 100%, 69%);
     --cor-azul-acinzentado-escuro: hsl(210, 10%, 33%);
     --cor-azul-acinzentado: hsl(201, 11%, 66%);
@@ -61,12 +62,12 @@ h1 {
     color: white;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px 2px var(--cor-ciano-forte);
+    box-shadow: 2px 4px 4px var(--cor-box);
     width: 300px;
     height: 60px;
     display: block;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -76,12 +77,12 @@ h1 {
     color: white;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px 2px var(--cor-azul-claro);
+    box-shadow: 2px 3px 1px var(--cor-azul-acinzentado-escuro);
     width: 300px;
     height: 60px;
     display: block;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 60px;
     margin-top: 10px;
     margin-bottom: 100px;
 }
