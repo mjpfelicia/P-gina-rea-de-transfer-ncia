@@ -23,7 +23,7 @@
         margin: 12px;
     }
     
-    #imagem-principal {
+    .imagem-principal {
         width: 100%;
     }
     
@@ -137,6 +137,9 @@
     }
     
     @media (min-width:1023px) {
+        .image-desktop {
+            width: 60%;
+        }
         .container-geral {
             margin: 0px;
         }
@@ -151,8 +154,15 @@
         h1 {
             text-align: left;
         }
+        .h1-access {
+            margin-top: 3em;
+        }
         .texto {
             margin-bottom: 15px;
+        }
+        .p-access {
+            margin-bottom: 6em;
+            width: 50%;
         }
         .texto-historia {
             width: 50%;
@@ -174,7 +184,7 @@
             flex-direction: column;
             margin-top: 35px;
         }
-        #imagem-principal {
+        .imagem-principal {
             margin-left: -45px;
         }
     }
