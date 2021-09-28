@@ -19,10 +19,6 @@ li {
     --cor-azul-acinzentado: hsl(201, 11%, 66%);
 }
 
-#container-geral {
-    margin: 12px;
-}
-
 .imagem-principal {
     width: 100%;
 }
@@ -31,6 +27,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .content-imagem {
