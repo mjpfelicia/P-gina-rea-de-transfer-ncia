@@ -113,7 +113,6 @@ h1 {
 .contatos {
     background-color: hsl(171deg 11% 94%);
     width: 100vw;
-    height: auto;
     text-align: center;
     text-decoration: none;
     color: var(--cor-azul-acinzentado-escuro);
