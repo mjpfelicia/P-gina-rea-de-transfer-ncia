@@ -23,6 +23,10 @@ li {
     width: 100%;
 }
 
+.imagem-desktop {
+    width: 100%;
+}
+
 .flex-content {
     display: flex;
     flex-direction: column;
