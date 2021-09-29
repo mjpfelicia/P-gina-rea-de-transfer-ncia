@@ -181,7 +181,7 @@ h3 {
         background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(./images/bg-header-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 5em;
+        padding-top: 4em;
     }
     .imagem-desktop {
         width: 65%;
