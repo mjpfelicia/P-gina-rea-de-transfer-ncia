@@ -19,6 +19,10 @@ li {
     --cor-azul-acinzentado: hsl(201, 11%, 66%);
 }
 
+.container-geral {
+    margin: 0px 20px;
+}
+
 .imagem-principal {
     width: 100%;
 }
@@ -31,11 +35,10 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 70px;
 }
 
 .content-imagem {
-    background-repeat: no-repeat;
+    background-image: url(./images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,11 +67,30 @@ h3 {
     margin-bottom: 30px;
 }
 
+.h2-access {
+    margin-top: 3em;
+}
+
 .texto {
     color: var(--cor-azul-acinzentado);
     text-align: center;
     line-height: 30px;
+}
+
+.texto-historia {
+    margin-bottom: 30px;
+}
+
+.texto-keep {
     margin-bottom: 60px;
+}
+
+.texto-footer {
+    margin-bottom: 30px;
+}
+
+.p-access {
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -77,13 +99,13 @@ h3 {
     text-align: center;
     border-radius: 30px;
     box-shadow: 2px 4px 4px var(--cor-box);
-    width: 250px;
+    width: 300px;
     height: 60px;
     display: block;
     text-decoration: none;
     line-height: 60px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-mac {
@@ -92,7 +114,7 @@ h3 {
     text-align: center;
     border-radius: 30px;
     box-shadow: 2px 3px 1px var(--cor-azul-acinzentado-escuro);
-    width: 250px;
+    width: 300px;
     height: 60px;
     display: block;
     text-decoration: none;
@@ -102,11 +124,11 @@ h3 {
 }
 
 .altura-secao {
-    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-.icon-svg {
-    margin-bottom: 30px;
+.altura-secao-ico {
+    padding-top: 60px;
 }
 
 .imagem-digital {
@@ -149,6 +171,9 @@ h3 {
 }
 
 @media (min-width:1023px) {
+    .container-geral {
+        margin: 0px;
+    }
     .content-imagem {
         background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(./images/bg-header-mobile.png);
         background-repeat: no-repeat;
@@ -174,14 +199,13 @@ h3 {
     h3 {
         margin-bottom: 10px;
     }
-    .h1-access {
+    .h2-access {
         margin-top: 3em;
     }
     .texto {
         margin-bottom: 10px;
     }
     .p-access {
-        margin-bottom: 6em;
         width: 50%;
     }
     .texto-historia {
@@ -192,6 +216,34 @@ h3 {
     }
     .altura-secao {
         padding-top: 0px;
+    }
+    .btn {
+        background: var(--cor-ciano-forte);
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 2px 4px 4px var(--cor-box);
+        width: 250px;
+        height: 55px;
+        display: block;
+        text-decoration: none;
+        line-height: 55px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .btn-mac {
+        background: var(--cor-azul-claro);
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 2px 3px 1px var(--cor-azul-acinzentado-escuro);
+        width: 250px;
+        height: 55px;
+        display: block;
+        text-decoration: none;
+        line-height: 55px;
+        margin-top: 10px;
+        margin-bottom: 100px;
     }
     .monitor {
         display: flex;
