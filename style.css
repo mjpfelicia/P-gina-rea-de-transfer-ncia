@@ -31,7 +31,6 @@ li {
 }
 
 .content-imagem {
-    background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(./images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -146,6 +145,11 @@ h3 {
 }
 
 @media (min-width:1023px) {
+    .content-imagem {
+        background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .imagem-desktop {
         width: 70%;
     }
