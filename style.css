@@ -178,7 +178,7 @@ h3 {
         background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(./images/bg-header-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 10em;
+        padding-top: 5em;
     }
     .imagem-desktop {
         width: 65%;
@@ -285,7 +285,7 @@ h3 {
     .contatos {
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: stretch;
         line-height: 40px;
         text-align: left;
     }
