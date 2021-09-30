@@ -127,7 +127,7 @@ h3 {
 }
 
 .altura-secao {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .altura-secao-ico {
@@ -346,6 +346,9 @@ h3 {
         color: var(--cor-ciano-forte);
         cursor: pointer;
         transition: 0.3s ease-in;
+    }
+    .content-ios {
+        margin-bottom: 50px;
     }
     .footer-contatos {
         margin-top: 0px;
